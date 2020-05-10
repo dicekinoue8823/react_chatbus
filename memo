@@ -1,0 +1,18 @@
+docker-compose exec front sh
+
+
+docker-compose up -d
+
+docker-compose ps
+
+docker-compose stop
+
+以下のコマンドでコンテナを削除します
+docker-compose rm
+
+また、停止、削除、ネットワーク削除を全て実行する場合は、以下のコマンドで実行できます。
+docker-compose down
+
+イメージも合わせて削除する場合は、以下のようなオプションを付けて実行します。
+docker-compose down --rmi all
+
